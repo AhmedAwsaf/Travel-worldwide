@@ -35,7 +35,7 @@ const PORT = 4000;
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect("mongodb+srv://ahmedawsaf:AwsafisKing@travelcluster.p1ggd6r.mongodb.net/GhuriPhiri?retryWrites=true&w=majority")
+mongoose.connect("")
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.error(err));
 
